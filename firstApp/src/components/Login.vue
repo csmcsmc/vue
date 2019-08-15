@@ -68,7 +68,7 @@
                         } else {
                             // console.log(res.data.access_token);
                             // console.log(this.name);
-                            location.href="http://localhost:8080/#/"
+                            this.$router.push({name: '/'});
                             localStorage.setItem("token", res.data.access_token);
                             localStorage.setItem("name", this.name);
                             localStorage.setItem("id", res.data.id);
