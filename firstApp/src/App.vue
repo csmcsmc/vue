@@ -166,7 +166,7 @@ export default {
           localStorage.removeItem("name");
           localStorage.removeItem("token");
             //this.$router.push({ path:'/'  })
-          location.href="http://localhost:8080/#/login"
+            this.$router.push({name: '/'});
       },
     }
 }
