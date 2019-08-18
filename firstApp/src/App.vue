@@ -166,7 +166,7 @@ export default {
           localStorage.removeItem("name");
           localStorage.removeItem("token");
             //this.$router.push({ path:'/'  })
-            this.$router.push({name: '/'});
+            this.$router.push({name: 'Login'});
       },
     }
 }

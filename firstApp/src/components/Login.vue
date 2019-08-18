@@ -68,7 +68,7 @@
                         } else {
                             // console.log(res.data.access_token);
                             // console.log(this.name);
-                            this.$router.push({name: '/'});
+                            this.$router.push({name: 'HelloWorld'});
                             localStorage.setItem("token", res.data.access_token);
                             localStorage.setItem("name", this.name);
                             localStorage.setItem("id", res.data.id);
